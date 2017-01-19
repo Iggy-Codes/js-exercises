@@ -10,3 +10,4 @@ function isNumber (inputToCheck) {
 isNumber(3) // true
 isNumber('3') // false
 isNumber('asass') // false
+
