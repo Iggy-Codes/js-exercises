@@ -2,7 +2,7 @@
 
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 
-// it works for any group of numbers
+// you can write as many number you want
 function maxOfNumbers () {
   var nLargest
   if (arguments.length === 0) return 'error'
@@ -12,3 +12,7 @@ function maxOfNumbers () {
   }
   return nLargest
 }
+
+maxOfNumbers(10, 1000, 100)
+
+maxOfNumbers(50, 6, 18, 29, 45)

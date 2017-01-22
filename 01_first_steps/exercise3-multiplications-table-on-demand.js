@@ -9,3 +9,5 @@ function multiplicationOnDemand (number) {
   }
   console.log(sRowOut)
 }
+
+multiplicationOnDemand(5)

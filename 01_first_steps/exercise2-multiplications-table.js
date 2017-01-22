@@ -11,7 +11,6 @@ function multiplicationTable () {
     for (var j = 1; j <= 10; j++) {
       sLine += i * j
       sChars = '' + i * j
-      console.log(sChars + '  ' + sChars.length)
       if (sChars.length === 1) sLine += ' '
       sLine += ' '
     }

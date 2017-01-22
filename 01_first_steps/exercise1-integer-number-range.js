@@ -10,3 +10,7 @@ function numberRange (x1, x2) {
   }
   return sRange
 }
+
+numberRange(10, 20)
+
+numberRange(9, 10)
